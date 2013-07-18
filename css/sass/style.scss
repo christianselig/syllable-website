@@ -1,0 +1,282 @@
+@import "compass/typography/lists/horizontal-list";
+@import "compass/css3/font-face";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+	background: #fdfdfc;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	margin: auto;
+	width: 960px;
+}
+
+nav {
+	background: #222f1a;
+	height: 60px;
+
+	ul {
+		@include horizontal-list(20px);
+
+		float: right;
+		margin: 22px 40px 0 0;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.banner {
+	background: #41761c;
+	height: 522px;
+
+	.iphone-img {
+		float: left;
+		left: 55px;
+		position: relative;
+		top: -50px;
+	}
+
+	.banner-info {
+		color: #fff;
+		float: right;
+		margin: 50px 100px 0 0;
+		width: 400px;
+
+		h1 {
+			display: block;
+			font-size: 60px;
+			font-weight: bold;
+			letter-spacing: 4px;
+			text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+		}
+
+		.subtitle {
+			display: block;
+			font-size: 20px;
+			font-weight: 200;
+			letter-spacing: 1px;
+			margin-top: -15px;
+			text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+		}
+
+		p {
+			font-size: 22px;
+			line-height: 31px;
+			margin-top: 35px;
+			text-shadow: 0px 1px 4px rgba(0,0,0,0.50);
+		}
+
+		.available-app-store-img {
+			margin-top: 50px;
+		}
+	}
+}
+
+.app-details {
+	margin: auto;
+	width: 820px;
+
+	.header-tagline {
+		color: #253509;
+		font-size: 38px;
+		font-weight: normal;
+		margin: 170px 0 50px 0;
+		text-align: center;
+	}
+
+	h3 {
+		color: #1a2705;
+		font-size: 27px;
+		margin-bottom: 20px;
+	}
+
+	p {
+		color: #2f3b1d;
+	}
+
+	.block {
+		overflow: hidden;
+		padding: 55px 0;
+	}
+
+	.left-block {
+		@extend .block;
+
+		.block-text {
+			float: left;
+			line-height: 22px;
+			margin-top: 70px;
+			width: 430px;
+		}
+
+		.customize-block {
+			margin-top: 120px;
+		}
+
+		img {
+			float: right;
+		}
+	}
+
+	.right-block {
+		@extend .block;
+		background: #f8f8f7;
+		border-top: 1px solid #d2d2d1;
+		border-bottom: 1px solid #d2d2d1;
+
+		img {
+			float: left;
+		}
+
+		.block-text {
+			float: right;
+			line-height: 22px;
+			margin-top: 110px;
+			width: 350px;
+		}
+	}
+
+	.download-app-store-img {
+		display: block;
+		margin: 90px auto;
+	}
+}
+
+.social-section {
+	background: #3e991c;
+	height: 95px;
+
+	ul {
+		@include horizontal-list(32px);
+		padding: 23px 0 0 115px;
+	}
+
+	li {
+		color: #fff;
+		text-shadow: 0px 1px 4px rgba(0,0,0,0.40);
+	}
+
+	p {
+		font-size: 25px;
+		margin-top: 8px;
+		text-shadow: 0px 1px 4px rgba(0,0,0,0.50);
+	}
+
+	a {
+		color: #fff;
+		font-size: 20px;
+		text-decoration: none;
+
+		.icon-text {
+			left: 10px;
+			position: relative;
+			top: -17px;
+		}
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer {
+	background: #242c1a;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+
+	a {
+		color: #c2cbb1;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+// @include font-face("Open Sans",
+// 	font-files(
+// 		"../fonts/opensans-light/OpenSans-Light-webfont.woff",
+// 		"../fonts/opensans-light/OpenSans-Light-webfont.ttf",
+// 		"../fonts/opensans-light/OpenSans-Light-webfont.svg#open_sanslight"
+// 	),
+// 	"../fonts/opensans-light/OpenSans-Light-webfont.eot", 200);
+
+// @include font-face("Open Sans",
+// 	font-files(
+// 		"../fonts/opensans-regular/OpenSans-Regular-webfont.woff",
+// 		"../fonts/opensans-regular/OpenSans-Regular-webfont.ttf",
+// 		"../fonts/opensans-regular/OpenSans-Regular-webfont.svg#open_sansregular"
+// 	),
+// 	"../fonts/opensans-regular/OpenSans-Regular-webfont.eot", normal);
+
+// @include font-face("Open Sans",
+// 	font-files(
+// 		"../fonts/opensans-semibold/OpenSans-Semibold-webfont.woff",
+// 		"../fonts/opensans-semibold/OpenSans-Semibold-webfont.ttf",
+// 		"../fonts/opensans-semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold"
+// 	),
+// 	"../fonts/opensans-semibold/OpenSans-Semibold-webfont.eot", 600);
+
+// @include font-face("Open Sans",
+// 	font-files(
+// 		"../fonts/opensans-bold/OpenSans-Bold-webfont.woff",
+// 		"../fonts/opensans-bold/OpenSans-Bold-webfont.ttf",
+// 		"../fonts/opensans-bold/OpenSans-Bold-webfont.svg#open_sansbold"
+// 	),
+// 	"../fonts/opensans-bold/OpenSans-Bold-webfont.eot", bold);
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-light/OpenSans-Light-webfont.eot');
+    src: url('../fonts/opensans-light/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-regular/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/opensans-regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-semibold/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-bold/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/opensans-bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

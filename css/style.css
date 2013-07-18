@@ -1,0 +1,289 @@
+/* line 4, sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, sass/style.scss */
+.container {
+  background: #fdfdfc;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  margin: auto;
+  width: 960px;
+}
+
+/* line 16, sass/style.scss */
+nav {
+  background: #222f1a;
+  height: 60px;
+}
+/* line 20, sass/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  float: right;
+  margin: 22px 40px 0 0;
+}
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 48, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav ul li:first-child, nav ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav ul li.last {
+  padding-right: 0;
+}
+/* line 27, sass/style.scss */
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 31, sass/style.scss */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* line 37, sass/style.scss */
+.banner {
+  background: #41761c;
+  height: 522px;
+}
+/* line 41, sass/style.scss */
+.banner .iphone-img {
+  float: left;
+  left: 55px;
+  position: relative;
+  top: -50px;
+}
+/* line 48, sass/style.scss */
+.banner .banner-info {
+  color: #fff;
+  float: right;
+  margin: 50px 100px 0 0;
+  width: 400px;
+}
+/* line 54, sass/style.scss */
+.banner .banner-info h1 {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* line 62, sass/style.scss */
+.banner .banner-info .subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-top: -15px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* line 71, sass/style.scss */
+.banner .banner-info p {
+  font-size: 22px;
+  line-height: 31px;
+  margin-top: 35px;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+/* line 78, sass/style.scss */
+.banner .banner-info .available-app-store-img {
+  margin-top: 50px;
+}
+
+/* line 84, sass/style.scss */
+.app-details {
+  margin: auto;
+  width: 820px;
+}
+/* line 88, sass/style.scss */
+.app-details .header-tagline {
+  color: #253509;
+  font-size: 38px;
+  font-weight: normal;
+  margin: 170px 0 50px 0;
+  text-align: center;
+}
+/* line 96, sass/style.scss */
+.app-details h3 {
+  color: #1a2705;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+/* line 102, sass/style.scss */
+.app-details p {
+  color: #2f3b1d;
+}
+/* line 106, sass/style.scss */
+.app-details .block, .app-details .left-block, .app-details .right-block {
+  overflow: hidden;
+  padding: 55px 0;
+}
+/* line 114, sass/style.scss */
+.app-details .left-block .block-text {
+  float: left;
+  line-height: 22px;
+  margin-top: 70px;
+  width: 430px;
+}
+/* line 121, sass/style.scss */
+.app-details .left-block .customize-block {
+  margin-top: 120px;
+}
+/* line 125, sass/style.scss */
+.app-details .left-block img {
+  float: right;
+}
+/* line 130, sass/style.scss */
+.app-details .right-block {
+  background: #f8f8f7;
+  border-top: 1px solid #d2d2d1;
+  border-bottom: 1px solid #d2d2d1;
+}
+/* line 136, sass/style.scss */
+.app-details .right-block img {
+  float: left;
+}
+/* line 140, sass/style.scss */
+.app-details .right-block .block-text {
+  float: right;
+  line-height: 22px;
+  margin-top: 110px;
+  width: 350px;
+}
+/* line 148, sass/style.scss */
+.app-details .download-app-store-img {
+  display: block;
+  margin: 90px auto;
+}
+
+/* line 154, sass/style.scss */
+.social-section {
+  background: #3e991c;
+  height: 95px;
+}
+/* line 158, sass/style.scss */
+.social-section ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  padding: 23px 0 0 115px;
+}
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.social-section ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+/* line 48, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.social-section ul li:first-child, .social-section ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.social-section ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.social-section ul li.last {
+  padding-right: 0;
+}
+/* line 163, sass/style.scss */
+.social-section li {
+  color: #fff;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+/* line 168, sass/style.scss */
+.social-section p {
+  font-size: 25px;
+  margin-top: 8px;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+/* line 174, sass/style.scss */
+.social-section a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* line 179, sass/style.scss */
+.social-section a .icon-text {
+  left: 10px;
+  position: relative;
+  top: -17px;
+}
+/* line 185, sass/style.scss */
+.social-section a:hover {
+  text-decoration: underline;
+}
+
+/* line 191, sass/style.scss */
+.footer {
+  background: #242c1a;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+/* line 197, sass/style.scss */
+.footer a {
+  color: #c2cbb1;
+  text-decoration: none;
+}
+/* line 201, sass/style.scss */
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-light/OpenSans-Light-webfont.eot");
+  src: url("../fonts/opensans-light/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/opensans-light/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/opensans-light/OpenSans-Light-webfont.svg#open_sanslight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-regular/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/opensans-regular/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/opensans-regular/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-semibold/OpenSans-Semibold-webfont.eot");
+  src: url("../fonts/opensans-semibold/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-bold/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/opensans-bold/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/opensans-bold/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
