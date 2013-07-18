@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Blurr Website
 markdown: redcarpet
 pygments: true
+exclude: README.md, css/config.rb
