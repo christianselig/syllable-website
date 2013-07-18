@@ -6,11 +6,14 @@
   padding: 0;
 }
 
-.container {
+body {
 	background: #fdfdfc;
 	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.container {
 	margin: auto;
-	width: 960px;
+	width: 820px;
 }
 
 nav {
@@ -40,7 +43,6 @@ nav {
 
 	.iphone-img {
 		float: left;
-		left: 55px;
 		position: relative;
 		top: -50px;
 	}
@@ -48,7 +50,7 @@ nav {
 	.banner-info {
 		color: #fff;
 		float: right;
-		margin: 50px 100px 0 0;
+		margin-top: 50px;
 		width: 400px;
 
 		h1 {
@@ -82,8 +84,8 @@ nav {
 }
 
 .app-details {
-	margin: auto;
-	width: 820px;
+	// margin: auto;
+	// width: 820px;
 
 	.header-tagline {
 		color: #253509;
@@ -157,7 +159,7 @@ nav {
 
 	ul {
 		@include horizontal-list(32px);
-		padding: 23px 0 0 115px;
+		padding: 23px 0 0 40px;
 	}
 
 	li {

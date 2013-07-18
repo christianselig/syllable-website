@@ -5,19 +5,23 @@
 }
 
 /* line 9, sass/style.scss */
-.container {
+body {
   background: #fdfdfc;
   font-family: "Open Sans", Helvetica, sans-serif;
-  margin: auto;
-  width: 960px;
 }
 
-/* line 16, sass/style.scss */
+/* line 14, sass/style.scss */
+.container {
+  margin: auto;
+  width: 820px;
+}
+
+/* line 19, sass/style.scss */
 nav {
   background: #222f1a;
   height: 60px;
 }
-/* line 20, sass/style.scss */
+/* line 23, sass/style.scss */
 nav ul {
   margin: 0;
   padding: 0;
@@ -50,36 +54,35 @@ nav ul li:last-child {
 nav ul li.last {
   padding-right: 0;
 }
-/* line 27, sass/style.scss */
+/* line 30, sass/style.scss */
 nav a {
   color: #fff;
   text-decoration: none;
 }
-/* line 31, sass/style.scss */
+/* line 34, sass/style.scss */
 nav a:hover {
   text-decoration: underline;
 }
 
-/* line 37, sass/style.scss */
+/* line 40, sass/style.scss */
 .banner {
   background: #41761c;
   height: 522px;
 }
-/* line 41, sass/style.scss */
+/* line 44, sass/style.scss */
 .banner .iphone-img {
   float: left;
-  left: 55px;
   position: relative;
   top: -50px;
 }
-/* line 48, sass/style.scss */
+/* line 50, sass/style.scss */
 .banner .banner-info {
   color: #fff;
   float: right;
-  margin: 50px 100px 0 0;
+  margin-top: 50px;
   width: 400px;
 }
-/* line 54, sass/style.scss */
+/* line 56, sass/style.scss */
 .banner .banner-info h1 {
   display: block;
   font-size: 60px;
@@ -87,7 +90,7 @@ nav a:hover {
   letter-spacing: 4px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 62, sass/style.scss */
+/* line 64, sass/style.scss */
 .banner .banner-info .subtitle {
   display: block;
   font-size: 20px;
@@ -96,24 +99,19 @@ nav a:hover {
   margin-top: -15px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 71, sass/style.scss */
+/* line 73, sass/style.scss */
 .banner .banner-info p {
   font-size: 22px;
   line-height: 31px;
   margin-top: 35px;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 78, sass/style.scss */
+/* line 80, sass/style.scss */
 .banner .banner-info .available-app-store-img {
   margin-top: 50px;
 }
 
-/* line 84, sass/style.scss */
-.app-details {
-  margin: auto;
-  width: 820px;
-}
-/* line 88, sass/style.scss */
+/* line 90, sass/style.scss */
 .app-details .header-tagline {
   color: #253509;
   font-size: 38px;
@@ -121,72 +119,72 @@ nav a:hover {
   margin: 170px 0 50px 0;
   text-align: center;
 }
-/* line 96, sass/style.scss */
+/* line 98, sass/style.scss */
 .app-details h3 {
   color: #1a2705;
   font-size: 27px;
   margin-bottom: 20px;
 }
-/* line 102, sass/style.scss */
+/* line 104, sass/style.scss */
 .app-details p {
   color: #2f3b1d;
 }
-/* line 106, sass/style.scss */
+/* line 108, sass/style.scss */
 .app-details .block, .app-details .left-block, .app-details .right-block {
   overflow: hidden;
   padding: 55px 0;
 }
-/* line 114, sass/style.scss */
+/* line 116, sass/style.scss */
 .app-details .left-block .block-text {
   float: left;
   line-height: 22px;
   margin-top: 70px;
   width: 430px;
 }
-/* line 121, sass/style.scss */
+/* line 123, sass/style.scss */
 .app-details .left-block .customize-block {
   margin-top: 120px;
 }
-/* line 125, sass/style.scss */
+/* line 127, sass/style.scss */
 .app-details .left-block img {
   float: right;
 }
-/* line 130, sass/style.scss */
+/* line 132, sass/style.scss */
 .app-details .right-block {
   background: #f8f8f7;
   border-top: 1px solid #d2d2d1;
   border-bottom: 1px solid #d2d2d1;
 }
-/* line 136, sass/style.scss */
+/* line 138, sass/style.scss */
 .app-details .right-block img {
   float: left;
 }
-/* line 140, sass/style.scss */
+/* line 142, sass/style.scss */
 .app-details .right-block .block-text {
   float: right;
   line-height: 22px;
   margin-top: 110px;
   width: 350px;
 }
-/* line 148, sass/style.scss */
+/* line 150, sass/style.scss */
 .app-details .download-app-store-img {
   display: block;
   margin: 90px auto;
 }
 
-/* line 154, sass/style.scss */
+/* line 156, sass/style.scss */
 .social-section {
   background: #3e991c;
   height: 95px;
 }
-/* line 158, sass/style.scss */
+/* line 160, sass/style.scss */
 .social-section ul {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  padding: 23px 0 0 115px;
+  padding: 23px 0 0 40px;
 }
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .social-section ul li {
@@ -211,47 +209,47 @@ nav a:hover {
 .social-section ul li.last {
   padding-right: 0;
 }
-/* line 163, sass/style.scss */
+/* line 165, sass/style.scss */
 .social-section li {
   color: #fff;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
-/* line 168, sass/style.scss */
+/* line 170, sass/style.scss */
 .social-section p {
   font-size: 25px;
   margin-top: 8px;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 174, sass/style.scss */
+/* line 176, sass/style.scss */
 .social-section a {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
 }
-/* line 179, sass/style.scss */
+/* line 181, sass/style.scss */
 .social-section a .icon-text {
   left: 10px;
   position: relative;
   top: -17px;
 }
-/* line 185, sass/style.scss */
+/* line 187, sass/style.scss */
 .social-section a:hover {
   text-decoration: underline;
 }
 
-/* line 191, sass/style.scss */
+/* line 193, sass/style.scss */
 .footer {
   background: #242c1a;
   height: 50px;
   line-height: 50px;
   text-align: center;
 }
-/* line 197, sass/style.scss */
+/* line 199, sass/style.scss */
 .footer a {
   color: #c2cbb1;
   text-decoration: none;
 }
-/* line 201, sass/style.scss */
+/* line 203, sass/style.scss */
 .footer a:hover {
   text-decoration: underline;
 }
