@@ -1,5 +1,6 @@
 @import "compass/typography/lists/horizontal-list";
 @import "compass/css3/font-face";
+@import "compass/css3/box-shadow";
 
 * {
   margin: 0;
@@ -22,9 +23,8 @@ nav {
 
 	ul {
 		@include horizontal-list(20px);
-
 		float: right;
-		margin: 22px 40px 0 0;
+		margin-top: 22px;
 	}
 
 	a {
@@ -38,7 +38,8 @@ nav {
 }
 
 .banner {
-	background: #41761c;
+	@include box-shadow(rgba(0, 0, 0, 0.30) 0 4px 10px 0);
+	background: url(../images/banner-bg.jpg);
 	height: 522px;
 
 	.iphone-img {
@@ -193,12 +194,13 @@ nav {
 .footer {
 	background: #242c1a;
 	height: 50px;
-	line-height: 50px;
+	line-height: 52px;
 	text-align: center;
 
 	a {
 		color: #c2cbb1;
 		text-decoration: none;
+		text-shadow: 0px 1px 4px rgba(0,0,0,0.50);
 
 		&:hover {
 			text-decoration: underline;
