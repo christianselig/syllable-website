@@ -40,6 +40,7 @@ nav {
 .banner {
 	@include box-shadow(rgba(0, 0, 0, 0.30) 0 4px 10px 0);
 	background: url(../images/banner-bg.jpg);
+	background-size: cover;
 	height: 522px;
 
 	.iphone-img {
@@ -67,7 +68,7 @@ nav {
 			font-size: 20px;
 			font-weight: 200;
 			letter-spacing: 1px;
-			margin-top: -15px;
+			margin-top: -13px;
 			text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
 		}
 
