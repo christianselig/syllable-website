@@ -1,6 +1,6 @@
-@import "compass/typography/lists/horizontal-list";
-@import "compass/css3/font-face";
-@import "compass/css3/box-shadow";
+@import "compass";
+@import "icons/*.png";
+@import "blog";
 
 * {
   margin: 0;
@@ -28,11 +28,11 @@ nav {
 	}
 
 	a {
-		color: #fff;
+		color: #ABB1A5;
 		text-decoration: none;
 
 		&:hover {
-			text-decoration: underline;
+			color: #fff;
 		}
 	}
 }
@@ -86,9 +86,6 @@ nav {
 }
 
 .app-details {
-	// margin: auto;
-	// width: 820px;
-
 	.header-tagline {
 		color: #253509;
 		font-size: 38px;
@@ -134,8 +131,8 @@ nav {
 	.right-block {
 		@extend .block;
 		background: #f8f8f7;
-		border-top: 1px solid #d2d2d1;
-		border-bottom: 1px solid #d2d2d1;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
 
 		img {
 			float: left;
@@ -149,14 +146,20 @@ nav {
 		}
 	}
 
-	.download-app-store-img {
-		display: block;
-		margin: 90px auto;
+	.download {
+		background: url('../images/letters-bg.png') no-repeat;
+		background-position: 57% 10%;
+		padding: 150px 0;
+
+		img {
+			display: block;
+			margin: auto;
+		}
 	}
 }
 
 .social-section {
-	background: #3e991c;
+	@include background(linear-gradient(-180deg, #4E991D 0%, #458719 100%));
 	height: 95px;
 
 	ul {
@@ -164,36 +167,58 @@ nav {
 		padding: 23px 0 0 40px;
 	}
 
-	li {
+	.social-tagline {
 		color: #fff;
-		text-shadow: 0px 1px 4px rgba(0,0,0,0.40);
-	}
-
-	p {
 		font-size: 25px;
-		margin-top: 8px;
+		line-height: 47px;
 		text-shadow: 0px 1px 4px rgba(0,0,0,0.50);
 	}
 
-	a {
+	.social-link {
+		background-repeat: no-repeat;
 		color: #fff;
+		display: block;
 		font-size: 20px;
+		height: 50px;
+		line-height: 50px;
 		text-decoration: none;
-
-		.icon-text {
-			left: 10px;
-			position: relative;
-			top: -17px;
-		}
+		text-indent: 62px;
 
 		&:hover {
-			text-decoration: underline;
+			color: #005305;
+		}
+	}
+
+	.twitter {
+		@extend .social-link;
+		@include icons-sprite(twitter-icon);
+
+		&:hover {
+			@include icons-sprite(twitter-icon-hover);
+		}
+	}
+
+	.facebook {
+		@extend .social-link;
+		@include icons-sprite(facebook-icon);
+
+		&:hover {
+			@include icons-sprite(facebook-icon-hover);
+		}
+	}
+
+	.blog {
+		@extend .social-link;
+		@include icons-sprite(blog-icon);
+
+		&:hover {
+			@include icons-sprite(blog-icon-hover);
 		}
 	}
 }
 
 .footer {
-	background: #242c1a;
+	@include background(linear-gradient(-180deg, #242C1A 0%, #1F2616 100%));
 	height: 50px;
 	line-height: 52px;
 	text-align: center;
@@ -204,42 +229,10 @@ nav {
 		text-shadow: 0px 1px 4px rgba(0,0,0,0.50);
 
 		&:hover {
-			text-decoration: underline;
+			color: #eee;
 		}
 	}
 }
-
-// @include font-face("Open Sans",
-// 	font-files(
-// 		"../fonts/opensans-light/OpenSans-Light-webfont.woff",
-// 		"../fonts/opensans-light/OpenSans-Light-webfont.ttf",
-// 		"../fonts/opensans-light/OpenSans-Light-webfont.svg#open_sanslight"
-// 	),
-// 	"../fonts/opensans-light/OpenSans-Light-webfont.eot", 200);
-
-// @include font-face("Open Sans",
-// 	font-files(
-// 		"../fonts/opensans-regular/OpenSans-Regular-webfont.woff",
-// 		"../fonts/opensans-regular/OpenSans-Regular-webfont.ttf",
-// 		"../fonts/opensans-regular/OpenSans-Regular-webfont.svg#open_sansregular"
-// 	),
-// 	"../fonts/opensans-regular/OpenSans-Regular-webfont.eot", normal);
-
-// @include font-face("Open Sans",
-// 	font-files(
-// 		"../fonts/opensans-semibold/OpenSans-Semibold-webfont.woff",
-// 		"../fonts/opensans-semibold/OpenSans-Semibold-webfont.ttf",
-// 		"../fonts/opensans-semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold"
-// 	),
-// 	"../fonts/opensans-semibold/OpenSans-Semibold-webfont.eot", 600);
-
-// @include font-face("Open Sans",
-// 	font-files(
-// 		"../fonts/opensans-bold/OpenSans-Bold-webfont.woff",
-// 		"../fonts/opensans-bold/OpenSans-Bold-webfont.ttf",
-// 		"../fonts/opensans-bold/OpenSans-Bold-webfont.svg#open_sansbold"
-// 	),
-// 	"../fonts/opensans-bold/OpenSans-Bold-webfont.eot", bold);
 
 @font-face {
     font-family: 'Open Sans';
@@ -273,7 +266,6 @@ nav {
     font-weight: 600;
     font-style: normal;
 }
-
 
 @font-face {
     font-family: 'Open Sans';

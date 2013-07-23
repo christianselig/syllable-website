@@ -7,16 +7,17 @@
         <title>Blurr</title>
 
         <link rel="stylesheet" href="/css/style.css">
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     </head>
 
     <body>
 		<nav>
 			<div class="container">
 				<ul>
-	    			<li><a href="#">About</a></li>
+	    			<li><a href="http://blurrapp.com">Home</a></li>
 	    			<li><a href="#">Download</a></li>
-	    			<li><a href="#">Blog</a></li>
-	    			<li><a href="#">Support</a></li>
+	    			<li><a href="blog">Blog</a></li>
+	    			<li><a href="mailto:support@blurrapp.com">Support</a></li>
 	    		</ul>
 			</div>
     	</nav>
@@ -82,16 +83,31 @@
 		</div>
 	</div>
 
-	<a href="#"><img src="images/download-on-appstore.png" alt="Download on App Store" class="download-app-store-img"></a>
+
+	<div class="download">
+		<a href="#"><img src="images/download-on-appstore.png" alt="Download on App Store"></a>
+	</div>
 </div>
 
 <div class="social-section">
 	<div class="container">
 		<ul>
-			<li><p>Stay up to date!</p></li>
-			<li><a href="#"><img src="images/twitter-icon.png" alt="Twitter icon"><span class="icon-text">Twitter</span></a></li>
-			<li><a href="#"><img src="images/facebook-icon.png" alt="Facebook icon"><span class="icon-text">Facebook</span></a></li>
-			<li><a href="#"><img src="images/blog-icon.png" alt="Blog icon"><span class="icon-text">Blog</span></a></li>
+			<li><span class="social-tagline">Stay up to date!</span></li>
+			<li>
+				<a href="http://twitter.com/blurrapp" class="twitter">Twitter</a>
+				<!-- <a href="#"><img src="images/twitter-icon.png" alt="Twitter icon"> -->
+				<!-- <span class="icon-text">Twitter</span></a> -->
+			</li>
+			<li>
+				<a href="#" class="facebook">Facebook</a>
+				<!-- <a href="#"><img src="images/facebook-icon.png" alt="Facebook icon"> -->
+				<!-- <span class="icon-text">Facebook</span></a> -->
+			</li>
+			<li>
+				<a href="blog" class="blog">Blog</a>
+				<!-- <a href="blog"><img src="images/blog-icon.png" alt="Blog icon"> -->
+				<!-- <span class="icon-text">Blog</span></a> -->
+			</li>
 		</ul>
 	</div>
 </div>

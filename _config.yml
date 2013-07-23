@@ -1,4 +1,6 @@
 name: Blurr Website
 markdown: redcarpet
 pygments: true
-exclude: README.md, css/config.rb
+exclude: [README.md, config.rb]
+paginate: 10
+paginate_path: "blog/page:num"
