@@ -7,27 +7,29 @@
         <title>Blog</title>
 
         <link rel="stylesheet" href="/css/style.css">
-        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+        <link rel="alternate" type="application/rss+xml" title="Blurr App Blog Posts" href="http://blurrapp.com/blog/feed.xml">
+        <!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
     </head>
 
     <body>
-		<nav>
-			<div class="container">
-				<ul>
-	    			<li><a href="http://blurrapp.com">Home</a></li>
-	    			<li><a href="#">Download</a></li>
-	    			<li><a href="blog">Blog</a></li>
-	    			<li><a href="mailto:support@blurrapp.com">Support</a></li>
-	    		</ul>
-			</div>
-    	</nav>
+    	<div class="wrapper">
+			<nav>
+				<div class="inner-container">
+					<ul>
+		    			<li><a href="http://blurrapp.com">Home</a></li>
+		    			<li><a href="#">Download</a></li>
+		    			<li><a href="http://blurrapp.com/blog">Blog</a></li>
+		    			<li><a href="mailto:support@blurrapp.com">Support</a></li>
+		    		</ul>
+				</div>
+	    	</nav>
 
 
     <div class="blog-posts">
 	
 		<article>
 			<div class="date">July 21, 2013</div>
-			<h1 class="title"><a href="/2013/07/21/test-post2.html">We're live!</a></h1>
+			<h1 class="title"><a href="/blog/test-post2">We're live!</a></h1>
 
 			<div class="content">
 				<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum.</p>
@@ -43,7 +45,7 @@
 	
 		<article>
 			<div class="date">July 19, 2013</div>
-			<h1 class="title"><a href="/2013/07/19/test-post.html">Blurr 1.1 Released on the App Store</a></h1>
+			<h1 class="title"><a href="/blog/test-post">Blurr 1.1 Released on the App Store</a></h1>
 
 			<div class="content">
 				<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum.</p>
@@ -70,8 +72,9 @@
 </div>
 
 
-		<div class="footer">
+		</div><!-- /wrapper -->
+		<footer>
 			<a href="http://christianselig.com">&copy; Christian Selig 2013</a>
-		</div>
+		</footer>
     </body>
 </html>

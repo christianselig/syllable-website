@@ -1,6 +1,9 @@
 name: Blurr Website
+description: Information on the iPhone app Blurr
+url: http://blurrapp.com
 markdown: redcarpet
 pygments: true
 exclude: [README.md, config.rb]
 paginate: 10
 paginate_path: "blog/page:num"
+permalink: /blog/:title

@@ -5,12 +5,13 @@
 
 /* line 1, sass/_blog.scss */
 article {
-  margin: 110px auto 0 auto;
+  margin: 75px auto 0 auto;
   width: 700px;
 }
-/* line 5, sass/_blog.scss */
-article:first-child {
-  margin-top: 75px;
+
+/* line 6, sass/_blog.scss */
+article + article {
+  margin-top: 110px;
 }
 
 /* line 10, sass/_blog.scss */
@@ -74,23 +75,35 @@ article:first-child {
 }
 
 /* line 10, sass/style.scss */
+html {
+  height: 100%;
+}
+
+/* line 14, sass/style.scss */
 body {
   background: #fdfdfc;
   font-family: "Open Sans", Helvetica, sans-serif;
+  min-height: 100%;
+  position: relative;
 }
 
-/* line 15, sass/style.scss */
-.container {
+/* line 21, sass/style.scss */
+.wrapper {
+  padding-bottom: 50px;
+}
+
+/* line 25, sass/style.scss */
+.inner-container {
   margin: auto;
   width: 820px;
 }
 
-/* line 20, sass/style.scss */
+/* line 30, sass/style.scss */
 nav {
   background: #222f1a;
   height: 60px;
 }
-/* line 24, sass/style.scss */
+/* line 34, sass/style.scss */
 nav ul {
   margin: 0;
   padding: 0;
@@ -98,7 +111,7 @@ nav ul {
   overflow: hidden;
   *zoom: 1;
   float: right;
-  margin-top: 22px;
+  margin-top: 19px;
 }
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 nav ul li {
@@ -123,17 +136,17 @@ nav ul li:last-child {
 nav ul li.last {
   padding-right: 0;
 }
-/* line 30, sass/style.scss */
+/* line 40, sass/style.scss */
 nav a {
   color: #ABB1A5;
   text-decoration: none;
 }
-/* line 34, sass/style.scss */
+/* line 44, sass/style.scss */
 nav a:hover {
   color: #fff;
 }
 
-/* line 40, sass/style.scss */
+/* line 50, sass/style.scss */
 .banner {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 4px 10px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 4px 10px 0;
@@ -142,20 +155,20 @@ nav a:hover {
   background-size: cover;
   height: 522px;
 }
-/* line 46, sass/style.scss */
+/* line 56, sass/style.scss */
 .banner .iphone-img {
   float: left;
   position: relative;
   top: -50px;
 }
-/* line 52, sass/style.scss */
+/* line 62, sass/style.scss */
 .banner .banner-info {
   color: #fff;
   float: right;
   margin-top: 50px;
   width: 400px;
 }
-/* line 58, sass/style.scss */
+/* line 68, sass/style.scss */
 .banner .banner-info h1 {
   display: block;
   font-size: 60px;
@@ -163,7 +176,7 @@ nav a:hover {
   letter-spacing: 4px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 66, sass/style.scss */
+/* line 76, sass/style.scss */
 .banner .banner-info .subtitle {
   display: block;
   font-size: 20px;
@@ -172,19 +185,19 @@ nav a:hover {
   margin-top: -13px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 75, sass/style.scss */
+/* line 85, sass/style.scss */
 .banner .banner-info p {
   font-size: 22px;
   line-height: 31px;
   margin-top: 35px;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 82, sass/style.scss */
+/* line 92, sass/style.scss */
 .banner .banner-info .available-app-store-img {
   margin-top: 50px;
 }
 
-/* line 89, sass/style.scss */
+/* line 99, sass/style.scss */
 .app-details .header-tagline {
   color: #253509;
   font-size: 38px;
@@ -192,66 +205,66 @@ nav a:hover {
   margin: 170px 0 50px 0;
   text-align: center;
 }
-/* line 97, sass/style.scss */
+/* line 107, sass/style.scss */
 .app-details h3 {
   color: #1a2705;
   font-size: 27px;
   margin-bottom: 20px;
 }
-/* line 103, sass/style.scss */
+/* line 113, sass/style.scss */
 .app-details p {
   color: #2f3b1d;
 }
-/* line 107, sass/style.scss */
+/* line 117, sass/style.scss */
 .app-details .block, .app-details .left-block, .app-details .right-block {
   overflow: hidden;
   padding: 55px 0;
 }
-/* line 115, sass/style.scss */
+/* line 125, sass/style.scss */
 .app-details .left-block .block-text {
   float: left;
   line-height: 22px;
   margin-top: 70px;
   width: 430px;
 }
-/* line 122, sass/style.scss */
+/* line 132, sass/style.scss */
 .app-details .left-block .customize-block {
   margin-top: 120px;
 }
-/* line 126, sass/style.scss */
+/* line 136, sass/style.scss */
 .app-details .left-block img {
   float: right;
 }
-/* line 131, sass/style.scss */
+/* line 141, sass/style.scss */
 .app-details .right-block {
   background: #f8f8f7;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 137, sass/style.scss */
+/* line 147, sass/style.scss */
 .app-details .right-block img {
   float: left;
 }
-/* line 141, sass/style.scss */
+/* line 151, sass/style.scss */
 .app-details .right-block .block-text {
   float: right;
   line-height: 22px;
   margin-top: 110px;
   width: 350px;
 }
-/* line 149, sass/style.scss */
+/* line 159, sass/style.scss */
 .app-details .download {
   background: url("../images/letters-bg.png") no-repeat;
   background-position: 57% 10%;
   padding: 150px 0;
 }
-/* line 154, sass/style.scss */
+/* line 164, sass/style.scss */
 .app-details .download img {
   display: block;
   margin: auto;
 }
 
-/* line 161, sass/style.scss */
+/* line 171, sass/style.scss */
 .social-section {
   background: -webkit-linear-gradient(-180deg, #4e991d 0%, #458719 100%);
   background: -moz-linear-gradient(-180deg, #4e991d 0%, #458719 100%);
@@ -259,7 +272,7 @@ nav a:hover {
   background: linear-gradient(-180deg, #4e991d 0%, #458719 100%);
   height: 95px;
 }
-/* line 165, sass/style.scss */
+/* line 175, sass/style.scss */
 .social-section ul {
   margin: 0;
   padding: 0;
@@ -291,14 +304,14 @@ nav a:hover {
 .social-section ul li.last {
   padding-right: 0;
 }
-/* line 170, sass/style.scss */
+/* line 180, sass/style.scss */
 .social-section .social-tagline {
   color: #fff;
   font-size: 25px;
   line-height: 47px;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 177, sass/style.scss */
+/* line 187, sass/style.scss */
 .social-section .social-link, .social-section .twitter, .social-section .facebook, .social-section .blog {
   background-repeat: no-repeat;
   color: #fff;
@@ -309,53 +322,56 @@ nav a:hover {
   text-decoration: none;
   text-indent: 62px;
 }
-/* line 187, sass/style.scss */
+/* line 197, sass/style.scss */
 .social-section .social-link:hover, .social-section .twitter:hover, .social-section .facebook:hover, .social-section .blog:hover {
   color: #005305;
 }
-/* line 192, sass/style.scss */
+/* line 202, sass/style.scss */
 .social-section .twitter {
   background-position: 0 -50px;
 }
-/* line 196, sass/style.scss */
+/* line 206, sass/style.scss */
 .social-section .twitter:hover {
   background-position: 0 0;
 }
-/* line 201, sass/style.scss */
+/* line 211, sass/style.scss */
 .social-section .facebook {
   background-position: 0 -250px;
 }
-/* line 205, sass/style.scss */
+/* line 215, sass/style.scss */
 .social-section .facebook:hover {
   background-position: 0 -200px;
 }
-/* line 210, sass/style.scss */
+/* line 220, sass/style.scss */
 .social-section .blog {
   background-position: 0 -100px;
 }
-/* line 214, sass/style.scss */
+/* line 224, sass/style.scss */
 .social-section .blog:hover {
   background-position: 0 -150px;
 }
 
-/* line 220, sass/style.scss */
-.footer {
+/* line 230, sass/style.scss */
+footer {
   background: -webkit-linear-gradient(-180deg, #242c1a 0%, #1f2616 100%);
   background: -moz-linear-gradient(-180deg, #242c1a 0%, #1f2616 100%);
   background: -o-linear-gradient(-180deg, #242c1a 0%, #1f2616 100%);
   background: linear-gradient(-180deg, #242c1a 0%, #1f2616 100%);
+  bottom: 0;
   height: 50px;
-  line-height: 52px;
+  line-height: 50px;
+  position: absolute;
   text-align: center;
+  width: 100%;
 }
-/* line 226, sass/style.scss */
-.footer a {
+/* line 239, sass/style.scss */
+footer a {
   color: #c2cbb1;
   text-decoration: none;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 231, sass/style.scss */
-.footer a:hover {
+/* line 244, sass/style.scss */
+footer a:hover {
   color: #eee;
 }
 

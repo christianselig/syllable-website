@@ -7,12 +7,22 @@
   padding: 0;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background: #fdfdfc;
 	font-family: "Open Sans", Helvetica, sans-serif;
+	min-height: 100%;
+	position: relative;
 }
 
-.container {
+.wrapper {
+	padding-bottom: 50px;
+}
+
+.inner-container {
 	margin: auto;
 	width: 820px;
 }
@@ -24,7 +34,7 @@ nav {
 	ul {
 		@include horizontal-list(20px);
 		float: right;
-		margin-top: 22px;
+		margin-top: 19px;
 	}
 
 	a {
@@ -217,11 +227,14 @@ nav {
 	}
 }
 
-.footer {
+footer {
 	@include background(linear-gradient(-180deg, #242C1A 0%, #1F2616 100%));
+	bottom: 0;
 	height: 50px;
-	line-height: 52px;
+	line-height: 50px;
+	position: absolute;
 	text-align: center;
+	width: 100%;
 
 	a {
 		color: #c2cbb1;
