@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Blurr Website</title>
-		<description></description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<description>Information on the iPhone app Blurr</description>
+		<link>http://blurrapp.com</link>
+		<language>en-us</language>
+		<atom:link href="http://blurrapp.com/blog/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>We're live!</title>
@@ -17,8 +18,8 @@
 &lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 21 Jul 2013 00:00:00 -0300</pubDate>
-				<link>/blog/test-post2</link>
-				<guid isPermaLink="true">/blog/test-post2</guid>
+				<link>http://blurrapp.com/blog/test-post2</link>
+				<guid isPermaLink="true">http://blurrapp.com/blog/test-post2</guid>
 			</item>
 		
 			<item>
@@ -32,8 +33,8 @@
 &lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 19 Jul 2013 00:00:00 -0300</pubDate>
-				<link>/blog/test-post</link>
-				<guid isPermaLink="true">/blog/test-post</guid>
+				<link>http://blurrapp.com/blog/test-post</link>
+				<guid isPermaLink="true">http://blurrapp.com/blog/test-post</guid>
 			</item>
 		
 	</channel>
