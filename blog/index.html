@@ -17,17 +17,17 @@ title: Blurr Blog
 
 <div class="pagination">
 	{% if paginator.page == 1 %}
-		<a href="/blog/page{{ paginator.next_page }}" class="paginator-button">Older Posts</a>
+		<a href="/blog/page{{ paginator.next_page }}" class="older-paginator">Older Posts</a>
 	{% else %}
 		{% if paginator.next_page %}
-			<a href="/blog/page{{ paginator.next_page }}" class="paginator-button">Older Posts</a>
+			<a href="/blog/page{{ paginator.next_page }}" class="older-paginator">Older Posts</a>
 		{% endif %}
 
 		{% if paginator.previous_page %}
 			{% if paginator.previous_page == 1 %}
-				<a href="/blog" class="paginator-button">Newer Posts</a>
+				<a href="/blog" class="newer-paginator">Newer Posts</a>
 			{% else %}
-				<a href="/blog/page{{ paginator.previous_page }}" class="paginator-button">Newer Posts</a>
+				<a href="/blog/page{{ paginator.previous_page }}" class="newer-paginator">Newer Posts</a>
 			{% endif %}
 		{% endif %}
 	{% endif %}
