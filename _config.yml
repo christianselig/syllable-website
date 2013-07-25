@@ -4,6 +4,6 @@ url: http://blurrapp.com
 markdown: redcarpet
 pygments: true
 exclude: [README.md, Rakefile, config.rb]
-paginate: 10
+paginate: 1
 paginate_path: "blog/page:num"
 permalink: /blog/:title
