@@ -8,64 +8,83 @@ article {
   margin: 110px auto 0 auto;
   width: 700px;
 }
+/* line 5, sass/_blog.scss */
+article:last-child {
+  margin-bottom: 140px;
+}
 
-/* line 6, sass/_blog.scss */
+/* line 10, sass/_blog.scss */
 .date {
   color: #979797;
   text-align: center;
 }
 
-/* line 11, sass/_blog.scss */
+/* line 15, sass/_blog.scss */
 .title {
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 15, sass/_blog.scss */
+/* line 19, sass/_blog.scss */
 .title a {
   color: #212B18;
   text-decoration: none;
 }
-/* line 19, sass/_blog.scss */
+/* line 23, sass/_blog.scss */
 .title a:hover {
   color: #246310;
 }
 
-/* line 26, sass/_blog.scss */
+/* line 30, sass/_blog.scss */
 .content p {
   margin-bottom: 20px;
 }
 
-/* line 31, sass/_blog.scss */
+/* line 35, sass/_blog.scss */
 .pagination {
   margin: 75px auto;
   overflow: hidden;
   width: 700px;
 }
 
-/* line 37, sass/_blog.scss */
+/* line 41, sass/_blog.scss */
 .paginator-button, .older-paginator, .newer-paginator {
-  background: -webkit-linear-gradient(-180deg, #5db321 0%, #4f991a 100%);
-  background: -moz-linear-gradient(-180deg, #5db321 0%, #4f991a 100%);
-  background: -o-linear-gradient(-180deg, #5db321 0%, #4f991a 100%);
-  background: linear-gradient(-180deg, #5db321 0%, #4f991a 100%);
+  background: -webkit-linear-gradient(-180deg, #61bd22 0%, #54a31d 100%);
+  background: -moz-linear-gradient(-180deg, #61bd22 0%, #54a31d 100%);
+  background: -o-linear-gradient(-180deg, #61bd22 0%, #54a31d 100%);
+  background: linear-gradient(-180deg, #61bd22 0%, #54a31d 100%);
   color: #fff;
   border-radius: 5px;
   display: block;
-  font-size: 22px;
-  height: 50px;
-  line-height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  height: 45px;
+  line-height: 45px;
   text-align: center;
   text-decoration: none;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
-  width: 220px;
+  width: 150px;
+}
+/* line 55, sass/_blog.scss */
+.paginator-button:hover, .older-paginator:hover, .newer-paginator:hover {
+  background: -webkit-linear-gradient(-180deg, #5bb01f 0%, #4d971b 100%);
+  background: -moz-linear-gradient(-180deg, #5bb01f 0%, #4d971b 100%);
+  background: -o-linear-gradient(-180deg, #5bb01f 0%, #4d971b 100%);
+  background: linear-gradient(-180deg, #5bb01f 0%, #4d971b 100%);
+}
+/* line 59, sass/_blog.scss */
+.paginator-button:active, .older-paginator:active, .newer-paginator:active {
+  background: -webkit-linear-gradient(-180deg, #54a31d 0%, #5cb320 100%);
+  background: -moz-linear-gradient(-180deg, #54a31d 0%, #5cb320 100%);
+  background: -o-linear-gradient(-180deg, #54a31d 0%, #5cb320 100%);
+  background: linear-gradient(-180deg, #54a31d 0%, #5cb320 100%);
 }
 
-/* line 51, sass/_blog.scss */
+/* line 64, sass/_blog.scss */
 .older-paginator {
   float: left;
 }
 
-/* line 56, sass/_blog.scss */
+/* line 69, sass/_blog.scss */
 .newer-paginator {
   float: right;
 }
@@ -259,14 +278,10 @@ nav a:hover {
   background: url("../images/letters-bg.png") no-repeat;
   background-position: 57% 10%;
   padding: 150px 0;
-}
-/* line 164, sass/style.scss */
-.app-details .download img {
-  display: block;
-  margin: auto;
+  text-align: center;
 }
 
-/* line 171, sass/style.scss */
+/* line 167, sass/style.scss */
 .social-section {
   background: -webkit-linear-gradient(-180deg, #4e991d 0%, #458719 100%);
   background: -moz-linear-gradient(-180deg, #4e991d 0%, #458719 100%);
@@ -274,7 +289,7 @@ nav a:hover {
   background: linear-gradient(-180deg, #4e991d 0%, #458719 100%);
   height: 95px;
 }
-/* line 175, sass/style.scss */
+/* line 171, sass/style.scss */
 .social-section ul {
   margin: 0;
   padding: 0;
@@ -306,14 +321,14 @@ nav a:hover {
 .social-section ul li.last {
   padding-right: 0;
 }
-/* line 180, sass/style.scss */
+/* line 176, sass/style.scss */
 .social-section .social-tagline {
   color: #fff;
   font-size: 25px;
   line-height: 47px;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 187, sass/style.scss */
+/* line 183, sass/style.scss */
 .social-section .social-link, .social-section .twitter, .social-section .facebook, .social-section .blog {
   background-repeat: no-repeat;
   color: #fff;
@@ -324,36 +339,36 @@ nav a:hover {
   text-decoration: none;
   text-indent: 62px;
 }
-/* line 197, sass/style.scss */
+/* line 193, sass/style.scss */
 .social-section .social-link:hover, .social-section .twitter:hover, .social-section .facebook:hover, .social-section .blog:hover {
   color: #005305;
 }
-/* line 202, sass/style.scss */
+/* line 198, sass/style.scss */
 .social-section .twitter {
   background-position: 0 -50px;
 }
-/* line 206, sass/style.scss */
+/* line 202, sass/style.scss */
 .social-section .twitter:hover {
   background-position: 0 0;
 }
-/* line 211, sass/style.scss */
+/* line 207, sass/style.scss */
 .social-section .facebook {
   background-position: 0 -250px;
 }
-/* line 215, sass/style.scss */
+/* line 211, sass/style.scss */
 .social-section .facebook:hover {
   background-position: 0 -200px;
 }
-/* line 220, sass/style.scss */
+/* line 216, sass/style.scss */
 .social-section .blog {
   background-position: 0 -100px;
 }
-/* line 224, sass/style.scss */
+/* line 220, sass/style.scss */
 .social-section .blog:hover {
   background-position: 0 -150px;
 }
 
-/* line 230, sass/style.scss */
+/* line 226, sass/style.scss */
 footer {
   background: -webkit-linear-gradient(-180deg, #242c1a 0%, #1f2616 100%);
   background: -moz-linear-gradient(-180deg, #242c1a 0%, #1f2616 100%);
@@ -366,13 +381,13 @@ footer {
   text-align: center;
   width: 100%;
 }
-/* line 239, sass/style.scss */
+/* line 235, sass/style.scss */
 footer a {
   color: #c2cbb1;
   text-decoration: none;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
-/* line 244, sass/style.scss */
+/* line 240, sass/style.scss */
 footer a:hover {
   color: #eee;
 }
