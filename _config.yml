@@ -1,6 +1,6 @@
-name: Blurr Website
-description: Information on the iPhone app Blurr
-url: http://blurrapp.com
+name: Syllable Website
+description: Information on the iPhone app Syllable
+url: http://syllableapp.com
 markdown: redcarpet
 pygments: true
 exclude: [README.md, Rakefile, config.rb]

@@ -1,0 +1,219 @@
+<html>
+	<head>
+		<title>Syllable Support</title>
+
+		<style>
+			.introduction {
+				width: 500px;
+
+				color: #000;
+				font: 15px "Lucida Grande", serif;
+				margin: 50px auto 50px auto;
+			}
+
+				.introduction a {
+					color: #0086c9;
+					text-decoration: none;
+				}
+
+					.introduction a:hover {
+						color: #007ebd;
+						border-bottom: 1px solid #007ebd;
+					}
+
+			.contact-form {
+				width: 360px;
+				margin: 50px auto 100px auto;
+			}
+
+				fieldset {
+					border: none;
+				}
+
+				label {
+					color: #888;
+					font-family: 'Georgia';
+					font-size: 14px;
+					font-style: italic;
+					margin: 0 auto;
+				}
+
+				.text {
+					border: 1px solid #bbb;
+					border-radius: 5px;
+					color: #222;
+					display: block;
+					font-family: Georgia, 'Times New Roman', serif;
+					font-size: 16px;
+					margin: 5px auto 12px auto;
+					padding: 7px 5px 8px 5px;
+					width: 350px;
+				}
+
+				textarea {
+					display: block;
+					border: 1px solid #bbb;
+					border-radius: 5px;
+					color: #222;
+					font-family: Georgia, 'Times New Roman', serif;
+					font-size: 16px;
+					height: 100px;
+					margin: 5px auto;
+					padding: 5px;
+					width: 350px;
+				}
+
+				.submit {
+					border: 1px solid #367ab7;
+					border-radius: 7px;
+			        color: #fff;
+			        font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+					font-size: 20px;
+					margin: 10px auto;
+					padding: 6px 16px 8px 16px;
+					text-shadow: 0px -1px 1px rgba(20, 45, 68, 1);
+					width: 362px;
+
+					background: #56b0ff; /* Old browsers */
+					background: -moz-linear-gradient(top,  #56b0ff 0%, #1194ff 100%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56b0ff), color-stop(100%,#1194ff)); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top,  #56b0ff 0%,#1194ff 100%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(top,  #56b0ff 0%,#1194ff 100%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(top,  #56b0ff 0%,#1194ff 100%); /* IE10+ */
+					background: linear-gradient(to bottom,  #56b0ff 0%,#1194ff 100%); /* W3C */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56b0ff', endColorstr='#1194ff',GradientType=0 ); /* IE6-9 */
+
+					-webkit-box-shadow: inset 2px -2px 10px 1px rgba(50, 50, 50, 0.2);
+			        -moz-box-shadow: inset 2px -2px 10px 1px rgba(50, 50, 50, 0.2);
+			        -ms-box-shadow: inset 2px -2px 10px 1px rgba(50, 50, 50, 0.2);
+			        -o-box-shadow: inset 2px -2px 10px 1px rgba(50, 50, 50, 0.2);
+			        box-shadow: inset 2px -2px 10px 1px rgba(50, 50, 50, 0.1);
+				}
+
+					.submit:hover {
+						cursor: pointer;
+
+						background: #38a2ff; /* Old browsers */
+						background: -moz-linear-gradient(top,  #38a2ff 0%, #0084eb 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#38a2ff), color-stop(100%,#0084eb)); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top,  #38a2ff 0%,#0084eb 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top,  #38a2ff 0%,#0084eb 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top,  #38a2ff 0%,#0084eb 100%); /* IE10+ */
+						background: linear-gradient(to bottom,  #38a2ff 0%,#0084eb 100%); /* W3C */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38a2ff', endColorstr='#0084eb',GradientType=0 ); /* IE6-9 */
+					}
+
+					.submit:active {
+						-webkit-box-shadow: inset 0 0 8px 4px #2979c5;
+						-moz-box-shadow: inset 0 0 8px 4px #2979c5;
+						-ms-box-shadow: inset 0 0 8px 4px #2979c5;
+						-o-box-shadow: inset 0 0 8px 4px #2979c5;
+						box-shadow: inset 0 0 8px 4px #2979c5;
+					}
+
+				/* Error messages to be displayed with jQuery */
+				.name-error, .email-error, .message-error {
+					color: #ff2400;
+					font-style: italic;
+				}
+
+				/* Success message to appear with jQuery */
+				.success-message {
+					font-family: "Lucida Grande", Arial, sans-serif;
+					height: 300px;
+					margin: auto;
+					text-align: center;
+					width: 350px;
+				}
+
+					.success-image {
+						background: url('../media/success-badge.png');
+						height: 80px;
+						margin: auto;
+						width: 80px;
+					}
+
+					.success-title {
+						color: #3b8001;
+						display: block;
+						font-weight: bold;
+						margin: 5px 0;
+					}
+
+					.success-body {
+						display: block;
+						font-style: italic;
+						margin: 5px 0;
+					}
+
+				/* Error message to appear with jQuery */
+				.error-message {
+					font-family: "Lucida Grande", Arial, sans-serif;
+					height: 300px;
+					margin: auto;
+					text-align: center;
+					width: 350px;
+				}
+
+					.error-image {
+						background: url('../media/error-badge.png');
+						height: 80px;
+						margin: auto;
+						width: 80px;
+					}
+
+					.error-title {
+						color: #d40000;
+						display: block;
+						font-weight: bold;
+						margin: 5px 0;
+					}
+
+					.error-body {
+						display: block;
+						font-style: italic;
+						margin: 5px 0;
+					}
+
+						.error-body a {
+							color: #0086c9;
+							text-decoration: none;
+						}
+
+							.error-body a:hover, .erorr-body a:active {
+								color: #007ebd;
+								border-bottom: 1px solid #007ebd;
+							}
+		</style>
+
+		<script type="text/javascript" src="../scripts/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="../scripts/scripts.js"></script>
+		<script type="text/javascript" src="../scripts/jquery-ui-1.8.23.min.js"></script>
+	</head>
+	<body>
+		<div class="introduction">
+			<p>Hi! Having an issue? Or just a suggestion? Please don't hesitate to contact us, we'd love to help you out. Just fill out the form below, or if you'd prefer direct email, <a href="mailto:support@syllableapp.com">email us</a>!</p>
+		</div>
+
+		<div class="contact-form">
+			<fieldset>
+				<form method="post" action="">
+					<label for="name">Name:
+						<span class="name-error"></span>
+						<input type="text" name="name" id="name" class="text" placeholder="John Doe" />
+					</label>
+					<label for="email">Email:
+						<span class="email-error"></span>
+						<input type="email" name="email" id="email" class="text" placeholder="jdoe@example.com" />
+					</label>
+					<label for="message">Message:
+						<span class="message-error"></span>
+						<textarea name="message" id="message"></textarea>
+					</label>
+
+					<input type="submit" class="submit" value="Send Message" />
+				</form>
+			</fieldset>
+		</div>
+	</body>
+</html>

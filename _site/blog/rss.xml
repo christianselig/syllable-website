@@ -1,55 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Blurr Website</title>
-		<description>Information on the iPhone app Blurr</description>
-		<link>http://blurrapp.com</link>
+		<title>Syllable Website</title>
+		<description>Information on the iPhone app Syllable</description>
+		<link>http://syllableapp.com</link>
 		<language>en-us</language>
-		<atom:link href="http://blurrapp.com/blog/rss.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://syllableapp.com/blog/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>The Beauty of Speed Reading</title>
-				<description>&lt;p&gt;Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
+				<title>Syllable's now availble!</title>
+				<description>&lt;p&gt;Hurrah! I&amp;#39;m really excited to say that today Syllable is &lt;a href=&quot;https://itunes.apple.com/us/app/syllable/id687795555?ls=1&amp;amp;mt=8&quot;&gt;available for download&lt;/a&gt; on the App Store. To celebrate the launch, it&amp;#39;s available at an introductory price of just $0.99, though it won&amp;#39;t stay at that price for long.&lt;/p&gt;
 
-&lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/park.png&quot; alt=&quot;Syllable being used.&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m really happy with how Syllable turned out, and I&amp;#39;ve had a lot of fun making it. But I&amp;#39;m not done yet, I have some really exciting features planned for the future, and I&amp;#39;m very excited for the upcoming update for iOS 7. Follow me on &lt;a href=&quot;http://twitter.com/christianselig&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;http://dribbble.com/christianselig&quot;&gt;dribbble&lt;/a&gt; if you&amp;#39;d like to see some sneak peaks.&lt;/p&gt;
 
-&lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/syllable/id687795555?ls=1&amp;amp;mt=8&quot;&gt;&lt;strong&gt;Go check it out!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-				<pubDate>Wed, 24 Jul 2013 00:00:00 -0300</pubDate>
-				<link>http://blurrapp.com/blog/the-beauty-of-speed-reading</link>
-				<guid isPermaLink="true">http://blurrapp.com/blog/the-beauty-of-speed-reading</guid>
-			</item>
-		
-			<item>
-				<title>We're live!</title>
-				<description>&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum.&lt;/p&gt;
-
-&lt;p&gt;Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
-
-&lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 21 Jul 2013 00:00:00 -0300</pubDate>
-				<link>http://blurrapp.com/blog/test-post2</link>
-				<guid isPermaLink="true">http://blurrapp.com/blog/test-post2</guid>
-			</item>
-		
-			<item>
-				<title>Blurr 1.1 Released on the App Store</title>
-				<description>&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum.&lt;/p&gt;
-
-&lt;p&gt;Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
-
-&lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum.&lt;/p&gt;
-</description>
-				<pubDate>Fri, 19 Jul 2013 00:00:00 -0300</pubDate>
-				<link>http://blurrapp.com/blog/test-post</link>
-				<guid isPermaLink="true">http://blurrapp.com/blog/test-post</guid>
+				<pubDate>Sun, 01 Sep 2013 00:00:00 -0300</pubDate>
+				<link>http://syllableapp.com/blog/syllables-now-availble</link>
+				<guid isPermaLink="true">http://syllableapp.com/blog/syllables-now-availble</guid>
 			</item>
 		
 	</channel>

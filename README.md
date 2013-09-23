@@ -1,3 +1,3 @@
-## Blurr Website
+## Syllable Website
 
-Source for the [Blurr iPhone app website](http://blurrapp.com), built using Jekyll and SASS/Compass.
+Source for the [Syllable iPhone app website](http://syllableapp.com), built using Jekyll and SASS/Compass.

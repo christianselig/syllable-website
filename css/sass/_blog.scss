@@ -30,6 +30,20 @@ article {
 	p {
 		margin-bottom: 20px;
 	}
+
+	a {
+		color: #00a700;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	img {
+		display: block;
+		margin: auto;
+	}
 }
 
 .pagination {
